@@ -1,0 +1,14 @@
+.background-container {
+  max-width: 600px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-image: url(https://img.freepik.com/free-vector/cute-cat-working-laptop-cartoon-vector-icon-illustration-animal-business-isolated-flat-vector_138676-11645.jpg?t=st=1720652022~exp=1720655622~hmac=53f07b34930f4d3eccce89a85bedb244e64ba2e212989a549c484b650c3013ec&w=826);
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.container {
+  text-align: center;  
+}

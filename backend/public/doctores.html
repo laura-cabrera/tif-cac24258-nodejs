@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veterinaria Orión - Doctores</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- <a href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created by logisstudio - Flaticon</a> -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Veterinaria Orión</h1>
+    <nav>
+      <ul>
+        <li><a href="pacientes.html">Pacientes</a></li>
+        <li><a href="doctores.html">Doctores</a></li>
+        <li><a href="ingresos.html">Ingresos</a></li>
+      </ul>
+      <ul>
+        <li><a href="index.html">Iniciar sesión</a></li>
+        <li><a href="registrar.html">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="background-container"></div>
+
+      <!-- <h2>Registro de Doctores</h2>
+      <form id="doctoresForm" action="/doctores" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required />
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Registrar Doctor</button>
+      </form> -->
+
+      <h2>Listado de Doctores</h2>
+      <ul id="lista-doctores">
+        <!-- Ejemplo estático que se muestra si el servidor no está conectado -->
+        <li>
+          <strong>Nombre</strong>
+          Nombre: XX.XX - Usuario: XX.XX - Contraseña: XX.XX
+          <!-- Botones para editar y eliminar -->
+          <button class="btn-editar">Editar</button>
+          <button class="btn-eliminar">Eliminar</button>
+        <li>
+          <strong>Nombre</strong>
+          Nombre: XX.XX - Usuario: XX.XX - Contraseña: XX.XX
+          <!-- Botones para editar y eliminar -->
+          <button class="btn-editar">Editar</button>
+          <button class="btn-eliminar">Eliminar</button>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 Veterinaria Orión</p>
+    <a class="attribution" href="https://www.freepik.com/free-vector/cute-cat-with-love-heart-cartoon-vector-icon-illustration_16551084.htm">Image by catalyststuff on Freepik</a>
+  </footer>
+
+  <script src="./js/doctores.js"></script>
+</body>
+
+</html>
