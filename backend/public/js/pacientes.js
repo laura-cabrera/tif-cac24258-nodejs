@@ -1,5 +1,4 @@
-// require('dotenv').config();
-const apiUrl = process.env.API_URL;
+const apiUrl = 'https://tif-cac24258-nodejs.onrender.com' || 'http://localhost:3000';
 
 // Función para crear un paciente
 document.getElementById('pacienteForm').addEventListener('submit', (event) => {
