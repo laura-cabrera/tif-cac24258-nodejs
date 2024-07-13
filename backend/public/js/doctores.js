@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000';
+const apiUrl = 'https://tif-cac24258-nodejs.onrender.com' || 'http://localhost:3000';
 
 // Función para listar todos los doctores
 function fetchPacientes() {
