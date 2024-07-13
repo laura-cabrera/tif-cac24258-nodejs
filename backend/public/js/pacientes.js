@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000';
+const apiUrl = process.env.API_URL || 'http://localhost:3000';
 
 // Función para crear un paciente
 document.getElementById('pacienteForm').addEventListener('submit', (event) => {
@@ -26,7 +26,12 @@ document.getElementById('pacienteForm').addEventListener('submit', (event) => {
 
 // Función para listar todos los pacientes
 function fetchPacientes() {
-    fetch(`${apiUrl}/pacientes`)
+    fetch(`${apiUrl}/pacientes` , {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+    }
+})
 
         .then(response => response.json())
         .then(data => {
