@@ -1,4 +1,5 @@
-const apiUrl = process.env.API_URL || 'http://localhost:3000';
+// require('dotenv').config();
+const apiUrl = process.env.API_URL;
 
 // Función para crear un paciente
 document.getElementById('pacienteForm').addEventListener('submit', (event) => {
